@@ -211,32 +211,32 @@
 <XPD:REF name="Views[1]">H4zHsyd2W0uFQ/cyfBOoNAAA</XPD:REF>
 <XPD:REF name="Views[2]">MhWMEW33AEShNdsi9Uyb/AAA</XPD:REF>
 <XPD:REF name="Views[3]">bb3QECmSbUyBvMZpS0G23QAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="s4e26bYMeUmIQM8euDWzlQAA">
-<XPD:ATTR name="Name" type="string">BuscarPorCodigo</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ConsultarPorCodigo</XPD:ATTR>
 <XPD:REF name="Owner">7ctL5ufJW0m50mfojZXMIAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="pFfbEdZx7EiJoVT4P4nZPgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="CycJ99CmbkSvMrlSsmDYnQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">s4e26bYMeUmIQM8euDWzlQAA</XPD:REF>
 <XPD:REF name="Type_">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="4ibLdKiPoEOMrQYCtVhYXgAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="GZw9LssRwE60AbWei/7ZlQAA">
 <XPD:ATTR name="Name" type="string">codigo</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">s4e26bYMeUmIQM8euDWzlQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="upTo/JLUE0mkSWT4/VJtEgAA">
-<XPD:ATTR name="Name" type="string">BuscarPorIdx</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ConsultarPorIdx</XPD:ATTR>
 <XPD:REF name="Owner">7ctL5ufJW0m50mfojZXMIAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="BQVcy+Xy302QFAfzTxZpLwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="wEutDdku80uOkVz047A4cAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">upTo/JLUE0mkSWT4/VJtEgAA</XPD:REF>
 <XPD:REF name="Type_">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="35mf+C4XW0mDFoQO65PcWwAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="pI0O0QnC706ii4eTFe4sEwAA">
 <XPD:ATTR name="Name" type="string">idx</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">upTo/JLUE0mkSWT4/VJtEgAA</XPD:REF>
@@ -263,18 +263,33 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="0Dy4qrsBOEWPl/r+NzcLrAAA">
-<XPD:ATTR name="Name" type="string">Quitar</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">QuitarPorCodigo</XPD:ATTR>
 <XPD:REF name="Owner">7ctL5ufJW0m50mfojZXMIAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="AIrjYDN9kUe8k91EgLv88AAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="M+X/sZWDhEOUFrgf0Cy1pQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">0Dy4qrsBOEWPl/r+NzcLrAAA</XPD:REF>
 <XPD:REF name="Type_">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="HJnUnifiMkyDWLBUEZk05gAA">
-<XPD:ATTR name="Name" type="string">idx</XPD:ATTR>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="LA86CA/A40ispPvCfPaDuwAA">
+<XPD:ATTR name="Name" type="string">codigo</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">0Dy4qrsBOEWPl/r+NzcLrAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="XHVL8UHjI06C+pc1kOjA5QAA">
+<XPD:ATTR name="Name" type="string">QuitarPorIdx</XPD:ATTR>
+<XPD:REF name="Owner">7ctL5ufJW0m50mfojZXMIAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="8B0POE/1WE2KxBvXn1GgfwAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">XHVL8UHjI06C+pc1kOjA5QAA</XPD:REF>
+<XPD:REF name="Type_">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="t6PHER9qTE+JOMH+TkiTPwAA">
+<XPD:ATTR name="Name" type="string">idx</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">XHVL8UHjI06C+pc1kOjA5QAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
@@ -328,28 +343,26 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="oOEDOR9gAUKaRdwvzUKbEQAA">
-<XPD:ATTR name="Name" type="string">ExtraerCantidad</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">QuitarCantidad</XPD:ATTR>
 <XPD:REF name="Owner">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="5gGJdrEQ/UiGyhs3b9b6GgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="HiCG0n4vUEuqfk86iRaqSQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">oOEDOR9gAUKaRdwvzUKbEQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="HMDyIH/L4kG6p3SCYq2BIwAA">
-<XPD:ATTR name="Name" type="string">extraccion</XPD:ATTR>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="KxZmwghYakaioXYZb34dcwAA">
+<XPD:ATTR name="Name" type="string">d</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">oOEDOR9gAUKaRdwvzUKbEQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">7</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">5</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">CycJ99CmbkSvMrlSsmDYnQAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">wEutDdku80uOkVz047A4cAAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">tHYwQMRO4E6s03xOxJ4ELgAA</XPD:REF>
 <XPD:REF name="TypedParameters[3]">M+X/sZWDhEOUFrgf0Cy1pQAA</XPD:REF>
-<XPD:REF name="TypedParameters[4]">pFfbEdZx7EiJoVT4P4nZPgAA</XPD:REF>
-<XPD:REF name="TypedParameters[5]">BQVcy+Xy302QFAfzTxZpLwAA</XPD:REF>
-<XPD:REF name="TypedParameters[6]">AIrjYDN9kUe8k91EgLv88AAA</XPD:REF>
+<XPD:REF name="TypedParameters[4]">8B0POE/1WE2KxBvXn1GgfwAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">TXdyqrydvUWfQRIQ7xXSfAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
@@ -395,8 +408,8 @@
 <XPD:REF name="Participant">EETFsz3IjkqGmxy5Msl4KQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">4WiXeEFabUqtId6cAZuTJgAA</XPD:REF>
-<XPD:REF name="Views[1]">qsh1ysFvl0Cnr9PatXX1rQAA</XPD:REF>
-<XPD:REF name="Views[2]">OYW9jnaUEkmRNWQYGCCDGwAA</XPD:REF>
+<XPD:REF name="Views[1]">OYW9jnaUEkmRNWQYGCCDGwAA</XPD:REF>
+<XPD:REF name="Views[2]">qsh1ysFvl0Cnr9PatXX1rQAA</XPD:REF>
 <XPD:REF name="Views[3]">lVoTrkSfVkCKeYF8beeMTgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="EZG5kphPW0+XY/8hJyG+MgAA">
@@ -405,8 +418,8 @@
 <XPD:REF name="Participant">7ctL5ufJW0m50mfojZXMIAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">EPiF4gTNvUq8JFVg462SLgAA</XPD:REF>
-<XPD:REF name="Views[1]">JpjXndWsW0WAn+aw1VeLVQAA</XPD:REF>
-<XPD:REF name="Views[2]">PMw1d78N7UOrf8Yv9mR7NQAA</XPD:REF>
+<XPD:REF name="Views[1]">PMw1d78N7UOrf8Yv9mR7NQAA</XPD:REF>
+<XPD:REF name="Views[2]">JpjXndWsW0WAn+aw1VeLVQAA</XPD:REF>
 <XPD:REF name="Views[3]">2OLqDwSO20+akuKh0MSYwgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
