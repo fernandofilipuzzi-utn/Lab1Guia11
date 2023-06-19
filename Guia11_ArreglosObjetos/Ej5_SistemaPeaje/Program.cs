@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej4_SistemaPeaje
+namespace Ej5_SistemaPeaje
 {
     class Program
     {

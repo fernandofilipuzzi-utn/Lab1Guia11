@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{28A3A5AA-7347-448E-BD5A-BDE82B0E5868}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej2_Existencias</RootNamespace>
-    <AssemblyName>Ej2_Existencias</AssemblyName>
+    <RootNamespace>Ej3_Existencias</RootNamespace>
+    <AssemblyName>Ej3_Existencias</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej6_Multas3
+namespace Ej6_Infracciones_2_1_c
 {
     class Program
     { 

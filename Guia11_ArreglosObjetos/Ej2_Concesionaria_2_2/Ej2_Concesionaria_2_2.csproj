@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AA5F8A4F-C7D0-4067-A64E-9F40840ACEDE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej3_Concesionaria2</RootNamespace>
-    <AssemblyName>Ej3_Concesionaria2</AssemblyName>
+    <RootNamespace>Ej2_Concesionaria_2_2</RootNamespace>
+    <AssemblyName>Ej2_Concesionaria_2_2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concesionaria.cs" />
+    <Compile Include="Embarque.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

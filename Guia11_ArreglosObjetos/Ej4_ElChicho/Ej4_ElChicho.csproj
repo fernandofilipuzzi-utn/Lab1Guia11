@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FCC2D862-DF8B-4660-A8A9-D268AB99379A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ej3_ElChicho</RootNamespace>
-    <AssemblyName>Ej3_ElChicho</AssemblyName>
+    <RootNamespace>Ej4_ElChicho</RootNamespace>
+    <AssemblyName>Ej4_ElChicho</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

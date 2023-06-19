@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ej2_Existencias
+namespace Ej3_Existencias
 {
     class Existencias
     {
