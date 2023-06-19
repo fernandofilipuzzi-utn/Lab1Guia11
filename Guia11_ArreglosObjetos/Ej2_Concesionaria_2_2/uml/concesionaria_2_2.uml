@@ -91,7 +91,7 @@
 <XPD:ATTR name="Left" type="integer">420</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">396</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">415</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">147</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">160</XPD:ATTR>
 <XPD:REF name="Model">DKDE69brZkCoxjRUcCUzAwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="icGaHxNcyE+DKM5R/W0IRAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="R4XLpYjmFU2zI9DMyHNYQQAA">
@@ -119,7 +119,7 @@
 <XPD:OBJ name="OwnedViews[2]" type="UMLAssociationView" guid="TXaVOhJ29E2nfD3XZRAg/AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">523,396;459,351</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">518,396;456,351</XPD:ATTR>
 <XPD:REF name="Model">e0T5DBI03kG/t+lrCM/0OAAA</XPD:REF>
 <XPD:REF name="Head">uPuAwCzIL0efh56vkZbFCAAA</XPD:REF>
 <XPD:REF name="Tail">YKu9qRHMDECuSc/JMJt7aAAA</XPD:REF>
@@ -350,16 +350,13 @@
 <XPD:REF name="BehavioralFeature">VCKd7GZZUka+dVQnu872FQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">NdGtFzgaF0G3ge6jtO94tgAA</XPD:REF>
-<XPD:REF name="TypedParameters[1]">HaG16+eyREGSnVbHgxTiOwAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">YM/jQIcW6Um8H1DVx3P51QAA</XPD:REF>
-<XPD:REF name="TypedParameters[3]">42BqFeeYfUafd+U6kt1SeQAA</XPD:REF>
-<XPD:REF name="TypedParameters[4]">C/RwuBs9xE+3GyXU+vcTtwAA</XPD:REF>
-<XPD:REF name="TypedParameters[5]">z7Uchs0fJEaoELJjFk3VmQAA</XPD:REF>
+<XPD:REF name="TypedParameters[1]">YM/jQIcW6Um8H1DVx3P51QAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">z7Uchs0fJEaoELJjFk3VmQAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">TcrpwS//I0SvOtZiqeO0/AAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="k0Qc3zH5tEKItFfGiJDBSwAA">
 <XPD:ATTR name="Name" type="string">porcDepreciacionUsado</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
@@ -390,6 +387,12 @@
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="IdybPITGu0WtUzje24ySVgAA">
 <XPD:ATTR name="Name" type="string">PromedioCosto</XPD:ATTR>
+<XPD:ATTR name="StereotypeName" type="string">readonly</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
+<XPD:REF name="Owner">DKDE69brZkCoxjRUcCUzAwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="GsBAmRwk3Uu8M/porpGt1AAA">
+<XPD:ATTR name="Name" type="string">AntiguedadPromedio</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">readonly</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
 <XPD:REF name="Owner">DKDE69brZkCoxjRUcCUzAwAA</XPD:REF>

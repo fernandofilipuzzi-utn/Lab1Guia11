@@ -8,20 +8,23 @@ namespace Ej6_Infracciones_2_1_c
 {
     class Sistema
     {
-        Infraccion[] infracciones = new Infraccion[10];
+        
+        Infraccion[] infracciones = new Infraccion[5];
 
         Acta[] actasARevisar = new Acta[100];
-        int cantActas=0;
+        public int CantActasRevisar { get; private set; }
 
         public double BaseMonetaria { get; set; }
         public double Recaudacion { get; private set; }
         public Acta MayorMonto { get; private set; }
-        public int CantActasRevisar { get; private set; }
 
+        int nroActa;
+        
         public Sistema(double baseMonetaria)
         {
             this.BaseMonetaria = baseMonetaria;
             this.Recaudacion = 0;
+            this.nroActa=0;
 
             #region creando el catalogo
             infracciones[0] = new Infraccion(1, "Sin luces bajas, ley 25….", 25);
@@ -34,14 +37,15 @@ namespace Ej6_Infracciones_2_1_c
 
         public void Agregar(Acta nuevo)
         {
-            if (cantActas == 0)
+            if (nroActa == 0)
             {
                 MayorMonto = nuevo;
             }
-            else if (MayorMonto.TotalAPagar > actasARevisar[cantActas].TotalAPagar)
+            else if (nuevo.TotalAPagar>MayorMonto.TotalAPagar)
             {
                 MayorMonto = nuevo;
             }
+            nroActa++;
 
             Recaudacion += nuevo.TotalAPagar;
 
@@ -61,7 +65,11 @@ namespace Ej6_Infracciones_2_1_c
 
         public Acta VerActaRevisar(int idx)
         {
-            return actasARevisar[idx];
+            Acta buscado = null;
+            if(idx>=0 && idx<CantActasRevisar)
+                buscado= actasARevisar[idx];
+
+            return buscado;
         }
     }
 }
