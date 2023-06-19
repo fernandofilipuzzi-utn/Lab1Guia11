@@ -1,4 +1,4 @@
-# Laboratorio 1 - Guia 11
+# Laboratorio 1 - Guía 11
 
 - Objeto con valor máximo y/o mínimo, promedios. 
 - Orden con máximo y/o mínimo. 
