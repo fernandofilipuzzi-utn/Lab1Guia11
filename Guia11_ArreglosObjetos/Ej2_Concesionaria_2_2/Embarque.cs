@@ -13,7 +13,16 @@ namespace Ej2_Concesionaria_2_2
         public int Numero { get; private set; }
         public int CantidadMotos { get; private set; }
         public double MontoTotal { get; private set; }
-
+        public double PromedioCosto
+        {
+            get 
+            {
+                double prom = 0;
+                if (CantidadMotos > 0)
+                    prom = MontoTotal / CantidadMotos;
+                return prom;
+            }
+        }
         public Embarque(int numero, double porcDepreciacion, int añoEvaluacion)
         {
             Numero = numero;

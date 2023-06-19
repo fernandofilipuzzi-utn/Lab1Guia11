@@ -61,6 +61,7 @@
 <XPD:ATTR name="Top" type="integer">156</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">345</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">134</XPD:ATTR>
+<XPD:ATTR name="ShowCompartmentVisibility" type="boolean">False</XPD:ATTR>
 <XPD:REF name="Model">y+DrvMf9v02+kkQtFm4yZAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="pEdoGYO3GU2e6tg+ZBv3OgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="/p1N62w4fUeokBGvUdMbyAAA">
@@ -243,7 +244,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="0sBut+7Kpk+SgDFLWtqCfAAA">
-<XPD:ATTR name="Name" type="string">OrdernarEncuestables</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">OrdernarContactables</XPD:ATTR>
 <XPD:REF name="Owner">y+DrvMf9v02+kkQtFm4yZAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
@@ -282,10 +283,9 @@
 <XPD:REF name="Views[1]">ncPClZ5zRk2I0saz70KFjwAA</XPD:REF>
 <XPD:REF name="Views[2]">5ES4s3nUOk2ka+Z1B/A43gAA</XPD:REF>
 <XPD:REF name="Views[3]">Jey2ciwnJU2+AYJ6HdqinQAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
-<XPD:REF name="TypedParameters[0]">8qoD/If9MkOQS9doK/qEdwAA</XPD:REF>
-<XPD:REF name="TypedParameters[1]">wXXe5uBa/02C9dhVdpxRmAAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">7jqlfyVm4EG9Ds3zgmfvRAAA</XPD:REF>
+<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:REF name="TypedParameters[0]">wXXe5uBa/02C9dhVdpxRmAAA</XPD:REF>
+<XPD:REF name="TypedParameters[1]">7jqlfyVm4EG9Ds3zgmfvRAAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">tFZF2Yw10Uil2H/BeA6HOQAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>

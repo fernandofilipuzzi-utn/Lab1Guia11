@@ -100,7 +100,7 @@ namespace Ej1_Encuesta
 
             Console.WriteLine("\t\t Informe de encuestados contactables \n");
 
-            proceso.OrdernarEncuestables();
+            proceso.OrdernarContactables();
             Console.WriteLine($"\t{"Email",-30} {"Distancia.",10}");
             for (int n = 0; n < proceso.CantContactables; n++)
             {

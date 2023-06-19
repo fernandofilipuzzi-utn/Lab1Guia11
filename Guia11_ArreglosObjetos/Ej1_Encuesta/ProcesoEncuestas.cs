@@ -76,7 +76,7 @@ namespace Ej1_Encuesta
             return buscado;
         }
 
-        public void OrdernarEncuestables()
+        public void OrdernarContactables()
         {
             QuickSort(contactables, 0, CantContactables - 1);
         }
