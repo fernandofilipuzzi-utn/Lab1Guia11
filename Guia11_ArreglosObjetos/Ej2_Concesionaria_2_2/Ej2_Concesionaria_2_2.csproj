@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28A3A5AA-7347-448E-BD5A-BDE82B0E5868}</ProjectGuid>
+    <ProjectGuid>{AA5F8A4F-C7D0-4067-A64E-9F40840ACEDE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ej3_Concesionaria2</RootNamespace>
     <AssemblyName>Ej3_Concesionaria2</AssemblyName>
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="uml\concesionaria_2.uml" />
+    <None Include="uml\concesionaria_2_2.uml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

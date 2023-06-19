@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FCC2D862-DF8B-4660-A8A9-D268AB99379A}</ProjectGuid>
+    <ProjectGuid>{0AE351BA-41E2-44F5-8F0B-C4151C77FD7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ej4_SistemaPeaje</RootNamespace>
     <AssemblyName>Ej4_SistemaPeaje</AssemblyName>

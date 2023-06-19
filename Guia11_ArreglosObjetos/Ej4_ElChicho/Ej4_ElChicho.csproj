@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA5F8A4F-C7D0-4067-A64E-9F40840ACEDE}</ProjectGuid>
+    <ProjectGuid>{FCC2D862-DF8B-4660-A8A9-D268AB99379A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ej3_ElChicho</RootNamespace>
     <AssemblyName>Ej3_ElChicho</AssemblyName>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1861B5F9-D69C-48B7-AB90-A437B1FB02DA}</ProjectGuid>
+    <ProjectGuid>{28A3A5AA-7347-448E-BD5A-BDE82B0E5868}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ej2_Existencias</RootNamespace>
     <AssemblyName>Ej2_Existencias</AssemblyName>

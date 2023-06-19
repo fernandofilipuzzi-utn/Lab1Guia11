@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0AE351BA-41E2-44F5-8F0B-C4151C77FD7D}</ProjectGuid>
+    <ProjectGuid>{1861B5F9-D69C-48B7-AB90-A437B1FB02DA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Ej1_Encuesta</RootNamespace>
     <AssemblyName>Ej1_Encuesta</AssemblyName>
@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encuesta.cs" />
+    <Compile Include="ProcesoEncuestas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="uml\encuesta.uml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="uml\encuesta.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
