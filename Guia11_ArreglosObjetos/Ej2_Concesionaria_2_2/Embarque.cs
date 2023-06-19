@@ -23,6 +23,19 @@ namespace Ej2_Concesionaria_2_2
                 return prom;
             }
         }
+
+        int acumAntiguedad;
+        public double AntiguedadPromedio
+        {
+            get
+            {
+                double prom = 0;
+                if (CantidadMotos > 0)
+                    prom = acumAntiguedad / CantidadMotos;
+                return prom;
+            }
+        }
+
         public Embarque(int numero, double porcDepreciacion, int añoEvaluacion)
         {
             Numero = numero;
@@ -35,6 +48,7 @@ namespace Ej2_Concesionaria_2_2
             double montoActual = montoFabricacion * Math.Pow(1 - porcDepreciacionUsado,
                                                                añoEvaluacion - añoFabricacion);
 
+            acumAntiguedad += añoEvaluacion-añoFabricacion;
             MontoTotal += montoActual;
             CantidadMotos++;
         }

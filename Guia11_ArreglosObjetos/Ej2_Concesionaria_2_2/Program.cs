@@ -45,6 +45,7 @@ namespace Ej2_Concesionaria_2_2
         {
             Console.Clear();
 
+            #region pantalla de ingreso embarques
             Console.WriteLine("\t\t Ingreso de embarques a concesionaria\n");
 
             Console.Write("Ingrese el número de embarque: ");
@@ -67,10 +68,20 @@ namespace Ej2_Concesionaria_2_2
                 Console.WriteLine("Ingrese Año de fabricación (0-corte): ");
                 añoFabricacion = Convert.ToInt32(Console.ReadLine());                
             }
+            #endregion
 
+            #region pantalla de resultados del embarque
             Console.Clear();
-            Console.WriteLine("Monto del embarque ingresado: ${0:f2}", aIngresar.MontoTotal);
-         
+
+            Console.WriteLine("\t\tResumen del embarque ingresado\n");
+
+            Console.WriteLine("Monto total del embarque ingresado: $ {0:f2}", aIngresar.MontoTotal);
+            Console.WriteLine("Cantidad de motos: {0}", aIngresar.CantidadMotos);
+            Console.WriteLine("Antigüedad promedio de los vehículos: {0:f2} años", aIngresar.AntiguedadPromedio);
+
+            Console.WriteLine("\n");
+            #endregion
+
             c.IngresarEmbarque(aIngresar);
 
             Console.WriteLine("Presione una tecla para continuar");
