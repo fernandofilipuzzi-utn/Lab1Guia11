@@ -63,6 +63,22 @@ namespace Ej6_Infracciones_2_1_c
             return buscado;
         }
 
+        public void OrdenarActasPorMonto()
+        {
+            for (int n = 0; n < CantActasRevisar - 1; n++)
+            {
+                for (int m = n+1; m < CantActasRevisar; m++)
+                {
+                    if (actasARevisar[n].TotalAPagar > actasARevisar[m].TotalAPagar)
+                    {
+                        Acta aux = actasARevisar[n];
+                        actasARevisar[n] = actasARevisar[m];
+                        actasARevisar[m] = aux;
+                    }
+                }
+            }
+        }
+
         public Acta VerActaRevisar(int idx)
         {
             Acta buscado = null;

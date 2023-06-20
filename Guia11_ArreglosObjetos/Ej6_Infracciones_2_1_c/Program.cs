@@ -13,6 +13,7 @@ namespace Ej6_Infracciones_2_1_c
             Console.Clear();
 
             Console.WriteLine("Ingrese dni y nombre");
+            
             int dni = Convert.ToInt32(Console.ReadLine());
             string nombre = Console.ReadLine();
 
@@ -84,10 +85,14 @@ namespace Ej6_Infracciones_2_1_c
         {
             Console.Clear();
 
+            sistema.OrdenarActasPorMonto();
+
             Console.WriteLine("Listado de actas que han pagado en el lugar");
             Console.WriteLine("--------------------------------------------");
+            int nro = 1;
             for (int n = 0; n < sistema.CantActasRevisar; n++)
             {
+                Console.WriteLine($"------{nro++}------------------------------");
                 Console.WriteLine(sistema.VerActaRevisar(n).VerTicket());
                 Console.WriteLine("--------------------------------------------");
             }
