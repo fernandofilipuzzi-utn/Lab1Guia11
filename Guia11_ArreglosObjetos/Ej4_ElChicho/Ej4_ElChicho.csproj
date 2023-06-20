@@ -52,5 +52,8 @@
     <None Include="App.config" />
     <None Include="uml\elchicho.uml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="uml\elchicho.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

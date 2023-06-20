@@ -52,6 +52,8 @@
     <None Include="App.config" />
     <None Include="uml\concesionaria_2_2.uml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="uml\concesionaria_2_2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -51,5 +51,8 @@
     <None Include="App.config" />
     <None Include="uml\sistema_peaje.uml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="uml\sistema_peaje.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

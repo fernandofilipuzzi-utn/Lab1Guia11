@@ -53,5 +53,8 @@
     <None Include="App.config" />
     <None Include="uml\infracciones_2_1_c.uml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="uml\infracciones_2_1_c.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

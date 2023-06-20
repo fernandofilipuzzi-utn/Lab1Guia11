@@ -24,6 +24,8 @@ namespace Ej3_Existencias
         public int BuscarPorCodigo(int codigo)
         {
             int idx = -1;
+
+            //es mejor usar una sentencia while en lugar del for
             for (int n = 0; n < Cantidad && idx == -1; n++)
                 if (productos[n].Codigo == codigo)
                     idx = n;
