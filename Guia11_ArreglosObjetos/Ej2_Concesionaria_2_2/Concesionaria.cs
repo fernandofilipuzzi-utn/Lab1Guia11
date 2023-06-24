@@ -54,8 +54,11 @@ namespace Ej2_Concesionaria_2_2
 
             int n = 0;
             while (n < CantidadEmbarques && buscado == null)
+            {
                 if (embarques[n].Numero == numero)
                     buscado = embarques[n];
+                n++;
+            }
 
             return buscado;
         }
