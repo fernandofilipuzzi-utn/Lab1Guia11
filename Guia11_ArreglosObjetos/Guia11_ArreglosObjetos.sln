@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej5_SistemaPeaje", "Ej5_Sis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej6_Infracciones_2_1_c", "Ej6_Infracciones_2_1_c\Ej6_Infracciones_2_1_c.csproj", "{C302FD3A-F7B4-401E-9854-D9A5390B990A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej7_Radar", "Ej7_Radar\Ej7_Radar.csproj", "{3EFF10FF-1809-4BF4-8D81-4E11A32163D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C302FD3A-F7B4-401E-9854-D9A5390B990A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C302FD3A-F7B4-401E-9854-D9A5390B990A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C302FD3A-F7B4-401E-9854-D9A5390B990A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFF10FF-1809-4BF4-8D81-4E11A32163D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFF10FF-1809-4BF4-8D81-4E11A32163D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFF10FF-1809-4BF4-8D81-4E11A32163D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFF10FF-1809-4BF4-8D81-4E11A32163D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@ namespace Ej6_Infracciones_2_1_c
     {
         
         Infraccion[] infracciones = new Infraccion[5];
+        public int CantInfraccion { get; private set; }
 
         Acta[] actasARevisar = new Acta[100];
         public int CantActasRevisar { get; private set; }
@@ -32,6 +33,7 @@ namespace Ej6_Infracciones_2_1_c
             infracciones[2] = new Infraccion(3, "Sobrevelocidad", 100);
             infracciones[3] = new Infraccion(4, "Falta de cinturón de seguridad (>2 ejes) o falta de casco (1 eje)", 85);
             infracciones[4] = new Infraccion(5, "Falta de respeto A la autoridad", 1500);
+            CantInfraccion = 5;
             #endregion
         }
 
